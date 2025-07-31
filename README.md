@@ -12,5 +12,3 @@ When `filter: nil`, this version incorrectly returns all ports (even inactive on
 - Random input is generated with varied port statuses and filters (`nil` or otherwise).
 - The property enforces this invariant: only `:active` ports should ever be returned.
 
-### Key File:
-[`ports_property_test.exs`](./ports_property_test.exs)
